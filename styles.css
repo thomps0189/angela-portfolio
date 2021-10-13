@@ -8,8 +8,15 @@
 body {
     margin: 0;
     padding: 0;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .hero img {
     width: 250px;
+}
+
+.hero  {
+    background-image: url("./pexels-anni-roenkae-2317711.jpg");
+    height: 500px;
 }
