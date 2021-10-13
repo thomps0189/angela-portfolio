@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #041f1e;
+    --secondary-color: #774936;
+    --tertiary-color: #d69f7e;
+    --fourth-color: #70a0af;
+    --fifth-color: #a0c1b9;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero img {
+    width: 250px;
+}
