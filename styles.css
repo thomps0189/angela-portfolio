@@ -114,6 +114,12 @@ body {
     font-weight: lighter;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    border: solid var(--secondary-color) 3px;
+}
+
 /* CONTACT */
 
 
