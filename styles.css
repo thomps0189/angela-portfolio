@@ -45,8 +45,8 @@ body {
  header nav ul {
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-between;
-     align-items:flex-end;
+     justify-content: flex-end;
+     align-content: flex-end;
      list-style: none;
      text-decoration: none;
      margin: 0;
@@ -54,10 +54,13 @@ body {
  }
 
  header nav ul li a {
+   display: flex;  
    padding: 10px 15px;
    font-weight: lighter;
    font-size: 1.30vw;
    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   width: 100%
+   justify-content: flex-end;
 
  }
 
@@ -66,9 +69,43 @@ body {
 
 .hero img {
     width: 250px;
+    align-items: center;
+    border-radius: 50%;
 }
 
 .hero  {
     background-image: url("./pexels-anni-roenkae-2317711.jpg");
-    height: 500px;
+    background-size: 100%;
+    background-position: 0;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: local;
+}
+
+.hero h3 {
+    text-decoration: none;
+    font-size: 1.55vw;
+    font-weight: lighter;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--fifth-color);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: var(--primary-color);
+    font-size: 1.55vw;
+    font-weight: lighter;
+    text-decoration: none;
+
 }
