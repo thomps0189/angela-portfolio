@@ -91,6 +91,34 @@ body {
     font-weight: lighter;
 }
 
+.image-and-caption {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+
+.caption {
+    display: block;
+    font-size: 1.80vw;
+    color: var(--primary-color);
+    font-weight: normal;
+}
+
+/* SECTION DESIGN */
+
+.section-title {
+    width: 200px;
+    height: 200px;
+    border: solid var(--secondary-color) 3px;
+    font-weight: lighter;
+}
+
+/* CONTACT */
+
+
+
+
 /* FOOTER */
 
 footer {
