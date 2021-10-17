@@ -126,6 +126,8 @@ h1 {
 .project-container {
     flex: 50%;
     margin-left: 15px;
+    margin-bottom: 10px;
+    
 }
 
 img { 
@@ -177,5 +179,68 @@ footer h2 {
     }
     .hero img {
         margin: 0;
+    }
+    .section-title {
+        font-size: 3.50vw;
+    }
+
+    .flex-right {
+        font-size: 3.50vw;
+    }
+
+    .picture-2 {
+        width: 100px;
+    }
+
+    .bottom-left {
+        padding: 0;
+        font-size: 1.80vw;
+    }
+
+    .project-container {
+        font-size: 1.80vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        background-repeat: space;
+        height: 280px;
+    }
+    .hero img {
+        margin: 0;
+        align-items: center;
+    }
+
+    .section-title {
+        font-size: 3.50vw;
+    }
+
+    .flex-right {
+        font-size: 3.50vw;
+    }
+
+    .picture-2 {
+        width: 100px;
+    }
+
+    .bottom-left a {
+        padding: 0;
+        font-size: 3.00vw;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    .project-container {
+        font-size: 2.80vw;
+    }
+
+    p.contact-info {
+        font-size: 4.00vw;
+    }
+
+    p.contact-info a {
+        font-size: 4.00vw;
+        margin: 3px;
     }
 }
