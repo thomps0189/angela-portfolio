@@ -188,6 +188,8 @@ footer h2 {
         font-size: 3.50vw;
     }
 
+    
+
     .picture-2 {
         width: 100px;
     }
@@ -197,8 +199,21 @@ footer h2 {
         font-size: 1.80vw;
     }
 
+    .bottom-left a {
+        font-size: 3.00vw;
+    }
+
     .project-container {
-        font-size: 1.80vw;
+        font-size: 2.00vw;
+    }
+
+    p.contact-info {
+        font-size: 3.00vw;
+    }
+
+    p.contact-info a {
+        font-size: 3.00vw;
+        margin: 3px;
     }
 }
 
