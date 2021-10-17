@@ -23,10 +23,15 @@ header {
     background-color: var(--fifth-color);
     font-weight: lighter;
     font-size: 1.55vw;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    
 }
 
 .title {
     margin-right: auto ;
+
 }
 
 h1 {
@@ -85,7 +90,7 @@ h1 {
 
 .hero h3 {
     text-decoration: none;
-    font-size: 1.35vw;
+    font-size: 1.25vw;
     font-weight: lighter;
 }
 
@@ -115,22 +120,64 @@ h1 {
 
 /* SECTION DESIGN */
 
+#about, #projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 0 10px;
+}
+
 .section-title {
     width: 200px;
     height: 200px;
-    border: solid var(--secondary-color) 3px;
-    font-weight: lighter;
+    border: solid var(--secondary-color) 2px;
+    font-weight: 350;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-    border: solid var(--secondary-color) 3px;
-}
+
+
 
 /* CONTACT */
 
+#contact {
+    display: flex;
+    justify-content: flex-start;
+}
 
+.contact-info {
+    display: block;
+}
+
+.contact-info a {
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 3px;
+}
+
+/* .send-message h3 {
+} */
+
+/* .send-message {
+    border: 1px solid var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 15px;
+    font-size: 1.55vw;
+    font-weight: lighter;
+    width: 50%;
+    border-radius: 1%;
+}
+
+.send-message button {
+    border: none;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    text-align: center;
+    border-radius: 10%;
+    font-size: 16px;
+} */
 
 
 /* FOOTER */
