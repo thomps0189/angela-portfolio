@@ -120,9 +120,13 @@ h1 {
 
 /* SECTION DESIGN */
 
-#about, #projects {
+#about {
     display: flex;
     justify-content: space-between;
+}
+
+#projects {
+    display: flex;
 }
 
 .content {
