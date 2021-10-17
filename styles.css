@@ -137,6 +137,25 @@ h1 {
     font-weight: 350;
 }
 
+.picture-1 {
+    width: 200px;
+    height: 150px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    text-align: ;
+    color: var(--fifth-color);
+}
+
+/* .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+} */
+
 
 
 
