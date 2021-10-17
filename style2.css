@@ -88,6 +88,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
 
 .flex-box {
@@ -119,6 +120,7 @@ h1 {
 
 .project-container-1 { 
     flex: 100%;
+
 }
 
 .project-container {
@@ -132,4 +134,23 @@ img {
 
 .bottom-left a {
     color: var(--tertiary-color);
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--fifth-color);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: var(--primary-color);
+    font-size: 1.55vw;
+    font-weight: lighter;
+    text-decoration: none;
+
 }
