@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./style2.css" />
     <title>Angela Thompson Portfolio</title>
 </head>
 <body>
     <!-- HEADER/NAVIGATION -->
     <header>
         <h1 class="title">
-            <a href="/">Angela Thompson</a>
+            <a href="/">Angela Thompson, Web Developer</a>
         </h1>
         <nav>
             <ul class="nav-links">
@@ -29,53 +29,64 @@
     <section class="hero">
         <figure class="image-and-caption">
         <img src="./ANGELA-LI-cool-tone-3.jpg" title="Welcome to my Portfolio!" alt="Image of Angela Thompson" />
-        <figcaption id="one" class="caption">
+        <!-- <figcaption id="one" class="caption">
             Angela Thompson
             <br>
             Web Developer
-        </figcaption>
+        </figcaption> -->
         </figure>
         
         <!-- social images and links will go here -->
     </section>
 
     
-
+<div class="flex-container">
 <!-- ABOUT ME/SKILLS -->    
-    <section id="about" class="about-me">
+<section id="about" class="about-me flex-box">
+    <div class="flex-left">
         <h2 class="section-title">About Me</h2>
-        <div class="content">
-           <p>Bio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic perferendis unde iste expedita eligendi. Ratione, adipisci maiores. Odit modi dolore similique dolores voluptates tenetur hic quibusdam. Dolorem, quo ut.</p>
-        <br>
-        <p>Skills: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatem reiciendis eius nesciunt ullam eligendi, reprehenderit optio est hic sequi inventore obcaecati. Perferendis obcaecati repudiandae incidunt facilis, voluptatibus unde. Nam.</p> 
-        </div>
-        
+    </div>
+   
+    <div class="content flex-right">
+       <p>Bio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic perferendis unde iste expedita eligendi. Ratione, adipisci maiores. Odit modi dolore similique dolores voluptates tenetur hic quibusdam. Dolorem, quo ut.</p>
+    <br>
+    <p>Skills: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatem reiciendis eius nesciunt ullam eligendi, reprehenderit optio est hic sequi inventore obcaecati. Perferendis obcaecati repudiandae incidunt facilis, voluptatibus unde. Nam.</p> 
+    </div>
+</section>
 
-    </section>
 
 <!-- PROJECTS -->
-    <section id="projects" class="projects">
+<section id="projects" class="projects flex-box">
+    <div class="flex-left">
         <h2 class="section-title">Projects</h2>
-        <div class="content">
-            <section class="project-container">
-                <img class="picture-1" src="./pexels-josh-sorenson-1714208.jpg" alt="two computer screens">
-                <div class="bottom-left">Web Application Example</div>
-            </section>
-            <section class="project-container">
-                <img class="picture-1" src="./pexels-designecologist-1779487.jpg" alt="computer screen on desk">
-                <div>Web Application Example 2</div>
-            </section>
-            
-            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae vel eaque, dolorum officia accusantium aspernatur exercitationem laboriosam autem, commodi temporibus voluptate, voluptatum expedita excepturi? Facilis eum vero praesentium porro?
-
-            </p> -->
-        </div>
-    </section> 
+    </div>
     
+    <div class="content flex-right-projects">
+        <section class="project-container-1">
+            <img class="picture-1" src="./pexels-josh-sorenson-1714208.jpg" alt="two computer screens">
+            <div class="bottom-left">Web Application Example</div>
+        </section>
+        <br>
+        <section class="project-container">
+            <img class="picture-2" src="./pexels-designecologist-1779487.jpg" alt="computer screen on desk">
+            <div>Web Application Example 2</div>
+        </section>
+
+        <section class="project-container">
+            <img class="picture-2" src="./pexels-designecologist-1779487.jpg" alt="computer screen on desk">
+            <div>Web Application Example 2</div>
+        </section>
+      
+    </div>
+</section> 
+
 <!-- CONTACT -->    
-    <section id="contact" class="contact">
-        <h2 class="section-title">Contact</h2>
-        <!-- <h3 class="contact-info">Contact Info</h3> -->
+<section id="contact" class="contact flex-box">
+    <div  class="flex-left">
+        <h2 class="section-title ">Contact</h2>
+    </div>
+   
+    <div class="flex-right">
         <p class="contact-info">
             Email: <a href="mailto:amtgo25@gmail.com">amtgo25@gmail.com</a> 
             <br>
@@ -85,20 +96,17 @@
             <br>
             GitHub: <a href="https://github.com/thomps0189">thomps0189</a>
         </p>
-        <!-- <section class="send-message">
-            <h3>Send Me A Message</h3>
-            <form>
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name" />
-          
-                <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
-          
-                <button type="submit">Submit</button>
-              </form>
+        
+    </div>
+</section>
 
-        </section> -->
-    </section>
+
+</div>
+
+
+
+    
+
     
 
 <!-- FOOTER -->

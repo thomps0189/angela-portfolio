@@ -1,0 +1,130 @@
+:root {
+    --primary-color: #041f1e;
+    --secondary-color: #774936;
+    --tertiary-color: #d69f7e;
+    --fourth-color: #70a0af;
+    --fifth-color: #a0c1b9;
+ 
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* HEADER / NAV BAR */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--fifth-color);
+    font-weight: lighter;
+    font-size: 1.55vw;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    
+}
+
+.title {
+    margin-right: auto ;
+
+}
+
+h1 {
+    display: block;
+    margin-left: 20px;
+    font-size: 1.55vw;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links li {
+    padding: 0;
+}
+
+.nav-links li, a {
+    font-weight: lighter;
+    font-size: 1.70vw;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 ;
+    padding: 10px;
+}
+
+/* HERO */
+.hero  {
+    background-image: url("./pexels-anni-roenkae-2317711.jpg");
+    background-size: 100%;
+    background-position: 0;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: local;
+}
+
+.hero img {
+    width: 250px;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* BODY */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-box {
+    display: flex;
+    flex: 100%;
+}
+
+.flex-left {
+    flex: 20%;
+    border-right: solid var(--tertiary-color);
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.flex-right {
+    flex: 80%;
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.flex-right-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 80%;
+
+}
+
+.project-container-1 { 
+    flex: 100%;
+}
+
+.project-container {
+    flex: 50%;
+}
+
+img { 
+    height: 50%;
+    width: 50%;
+}

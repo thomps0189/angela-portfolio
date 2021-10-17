@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     background-color: var(--primary-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -120,6 +120,10 @@ h1 {
 
 /* SECTION DESIGN */
 
+.flex-box {
+
+}
+
 #about {
     display: flex;
     justify-content: space-between;
@@ -146,12 +150,18 @@ h1 {
     height: 150px;
 }
 
+.picture-2 {
+    width: 100px;
+    height: 75px;
+}
+
 .project-container {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     position: relative;
     text-align: ;
-    color: var(--fifth-color);
+    color: var(--tertiary-color);
 }
 
 /* .bottom-left {
@@ -176,7 +186,7 @@ h1 {
 }
 
 .contact-info a {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     margin: 0;
     padding: 3px;
 }
