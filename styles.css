@@ -131,8 +131,9 @@ h1 {
 
 .section-title {
     width: 200px;
-    height: 200px;
-    border: solid var(--secondary-color) 2px;
+    height: 150px;
+    border-right: solid var(--secondary-color) 2px;
+    /* border: solid var(--secondary-color) 2px; */
     font-weight: 350;
 }
 
@@ -148,6 +149,7 @@ h1 {
 
 .contact-info {
     display: block;
+    margin: 10px;
 }
 
 .contact-info a {
