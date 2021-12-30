@@ -11,7 +11,7 @@ body {
     padding: 0;
     color: var(--tertiary-color);
     background-color: var(--primary-color);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 
@@ -22,11 +22,13 @@ header {
     justify-content: flex-end;
     align-items: center;
     background-color: var(--fifth-color);
-    font-weight: lighter;
+    font-weight: 500;
     font-size: 1.55vw;
     position: sticky;
     top: 0;
     z-index: 9999;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
     
 }
 
@@ -98,8 +100,6 @@ h1 {
 
 .flex-left {
     flex: 20%;
-    border-right: solid var(--secondary-color);
-    background-color: var(--primary-color);
     margin-bottom: 10px;
 }
 
@@ -108,6 +108,8 @@ h1 {
     background-color: var(--primary-color);
     margin-bottom: 10px;
     margin-left: 15px;
+    font-family: 'Cormorant', serif;
+    font-size: 1.25em;
 }
 
 .flex-right-projects {
@@ -115,6 +117,12 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 80%;
+
+}
+
+.section-title {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
 
 }
 
@@ -181,7 +189,7 @@ footer h2 {
         margin: 0;
     }
     .section-title {
-        font-size: 3.50vw;
+        font-size: 3.0vw;
     }
 
     .flex-right {
