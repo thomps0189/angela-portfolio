@@ -152,11 +152,12 @@ img {
 }
 
 .contact-info {
-    font-size: larger;
+    font-size: 1.0em;
 }
 
 .contact-info a {
     color: var(--tertiary-color);
+    font-size: 1.0em;
 }
 
 /* FOOTER */
