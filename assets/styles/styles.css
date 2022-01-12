@@ -1,0 +1,271 @@
+:root {
+    --primary-color: #041f1e;
+    --secondary-color: #774936;
+    --tertiary-color: #d69f7e;
+    --fourth-color: #70a0af;
+    --fifth-color: #a0c1b9;
+ 
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* HEADER / NAV BAR */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--fifth-color);
+    font-weight: lighter;
+    font-size: 1.55vw;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    
+}
+
+.title {
+    margin-right: auto ;
+
+}
+
+h1 {
+    display: block;
+    margin-left: 20px;
+    font-size: 1.55vw;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links li {
+    /*display: inline-block;*/
+    padding: 0;
+}
+
+.nav-links li, a {
+    font-weight: lighter;
+    font-size: 1.70vw;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 ;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* HERO */
+
+.hero img {
+    width: 250px;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hero  {
+    background-image: url("./pexels-anni-roenkae-2317711.jpg");
+    background-size: 100%;
+    background-position: 0;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: local;
+}
+
+.hero h3 {
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-weight: lighter;
+}
+
+.image-and-caption {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+
+.caption {
+    display: block;
+    font-size: 1.80vw;
+    color: var(--primary-color);
+    font-weight: 325;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#one {
+    background-color: var(--fifth-color);
+    filter: invert(1);
+    mix-blend-mode: hard-light;
+    border-radius: 50%;
+  }
+  
+ 
+
+/* SECTION DESIGN */
+
+.flex-box {
+
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+#projects {
+    display: flex;
+}
+
+.content {
+    margin: 0 10px;
+}
+
+.section-title {
+    width: 200px;
+    height: 150px;
+    border-right: solid var(--secondary-color) 2px;
+    /* border: solid var(--secondary-color) 2px; */
+    font-weight: 350;
+}
+
+.picture-1 {
+    width: 200px;
+    height: 150px;
+}
+
+.picture-2 {
+    width: 100px;
+    height: 75px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    text-align: ;
+    color: var(--tertiary-color);
+}
+
+/* .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+} */
+
+
+
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-info {
+    display: block;
+    margin: 10px;
+}
+
+.contact-info a {
+    color: var(--tertiary-color);
+    margin: 0;
+    padding: 3px;
+}
+
+/* .send-message h3 {
+} */
+
+/* .send-message {
+    border: 1px solid var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 15px;
+    font-size: 1.55vw;
+    font-weight: lighter;
+    width: 50%;
+    border-radius: 1%;
+}
+
+.send-message button {
+    border: none;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    text-align: center;
+    border-radius: 10%;
+    font-size: 16px;
+} */
+
+
+/* FOOTER */
+
+footer {
+    background: var(--fifth-color);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: var(--primary-color);
+    font-size: 1.55vw;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      footer h2, footer div {
+        text-align: center;
+        width: 100%;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+}

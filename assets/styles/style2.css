@@ -1,0 +1,270 @@
+:root {
+    --primary-color: #041f1e;
+    --secondary-color: #774936;
+    --tertiary-color: #d69f7e;
+    --fourth-color: #70a0af;
+    --fifth-color: #a0c1b9;
+ 
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    
+}
+
+
+
+/* HEADER / NAV BAR */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--fifth-color);
+    font-weight: 500;
+    font-size: 1.55vw;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    
+}
+
+.title {
+    margin-right: auto ;
+
+}
+
+h1 {
+    display: block;
+    margin-left: 20px;
+    font-size: 1.55vw;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links li {
+    padding: 0;
+}
+
+.nav-links li, a {
+    font-weight: lighter;
+    font-size: 1.70vw;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 ;
+    padding: 10px;
+}
+
+/* HERO */
+.hero  {
+    background-image: url("./assets/background-image.jpeg");
+    background-size: 100%;
+    background-position: 0;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: local;
+}
+
+.hero img {
+    width: 250px;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* BODY */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.flex-box {
+    display: flex;
+    flex: 100%;
+}
+
+.flex-left {
+    flex: 20%;
+    margin-bottom: 10px;
+}
+
+.flex-right {
+    flex: 80%;
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-family: 'Cormorant', serif;
+    font-size: 1.25em;
+}
+
+.flex-right-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 80%;
+
+}
+
+.section-title {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+
+}
+
+.project-container-1 { 
+    flex: 100%;
+
+}
+
+.project-container {
+    flex: 50%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+}
+
+img { 
+    height: 80%;
+    width: 45%;
+}
+
+.picture-2 {
+    width: 300px;
+}
+
+.bottom-left a {
+    color: var(--tertiary-color);
+}
+
+.contact-info {
+    font-size: 1.0em;
+}
+
+.contact-info a {
+    color: var(--tertiary-color);
+    font-size: 1.0em;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--fifth-color);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+footer h2 {
+    color: var(--primary-color);
+    font-size: 1.55vw;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 980px) {
+    .hero {
+        background-repeat: space;
+        height: 280px;
+    }
+    .hero img {
+        margin: 0;
+    }
+    .section-title {
+        font-size: 3.0vw;
+    }
+
+    .flex-right {
+        font-size: 3.50vw;
+    }
+
+    
+
+    .picture-2 {
+        width: 100px;
+    }
+
+    .bottom-left {
+        padding: 0;
+        font-size: 1.80vw;
+    }
+
+    .bottom-left a {
+        font-size: 3.00vw;
+    }
+
+    .project-container {
+        font-size: 2.00vw;
+    }
+
+    p.contact-info {
+        font-size: 3.00vw;
+    }
+
+    p.contact-info a {
+        font-size: 3.00vw;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        background-repeat: space;
+        height: 280px;
+    }
+    .hero img {
+        margin: 0;
+        align-items: center;
+    }
+
+    .section-title {
+        font-size: 3.50vw;
+    }
+
+    .flex-right {
+        font-size: 3.50vw;
+    }
+
+    .picture-2 {
+        width: 100px;
+    }
+
+    .bottom-left a {
+        padding: 0;
+        font-size: 3.00vw;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    .project-container {
+        font-size: 2.80vw;
+    }
+
+    p.contact-info {
+        font-size: 4.00vw;
+    }
+
+    p.contact-info a {
+        font-size: 4.00vw;
+        margin: 3px;
+    }
+}
