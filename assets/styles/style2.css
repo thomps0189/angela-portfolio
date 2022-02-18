@@ -65,7 +65,7 @@ h1 {
 
 /* HERO */
 .hero  {
-    background-image: url('/assets/background-image.jpeg');
+    background-image: url('./assets/background-image.jpeg');
     background-size: 100%;
     background-position: 0;
     display: flex;
